@@ -28,3 +28,7 @@ Challenge de 30 días para aprender GSAP y animaciones web como scrolltelling.
 
 - Vite + React
 - GSAP (ScrollTrigger)
+
+## Solución
+
+<video src="public/demo-video.mov" loop autoplay muted controls width="100%"></video>
