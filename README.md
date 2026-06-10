@@ -1,16 +1,30 @@
-# React + Vite
+# Laboratorio Maguito - Día 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Challenge de 30 días para aprender GSAP y animaciones web como scrolltelling.
 
-Currently, two official plugins are available:
+## Día 1: MAGUITO Scroll Animation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Objetivo:** Crear una sección donde la palabra "MAGUITO" se construye y destruye mediante el scroll.
 
-## React Compiler
+### UX Flow
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Llega la sección
+2. La sección se detiene (pinning)
+3. El usuario hace scroll
+4. La palabra aparece letra por letra (stagger)
+5. La palabra completa permanece unos segundos
+6. La palabra se destruye letra por letra
+7. La sección continúa
 
-## Expanding the ESLint configuration
+### Conceptos aprendidos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Stagger** — animar elementos con un retardo entre cada uno
+- **Timeline** — secuenciar animaciones una detrás de otra
+- **ScrollTrigger** — disparar animaciones en función del scroll
+- **Scrubbing** — sincronizar la animación con el scroll del usuario
+- **Pinning** — fijar una sección mientras se reproduce la animación
+
+## Stack
+
+- Vite + React
+- GSAP (ScrollTrigger)
