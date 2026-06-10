@@ -31,4 +31,4 @@ Challenge de 30 días para aprender GSAP y animaciones web como scrolltelling.
 
 ## Solución
 
-<video src="https://raw.githubusercontent.com/tmaldocena/maguito-lab-1/main/public/demo-video.mov" loop autoplay muted controls width="100%"></video>
+![Demo](https://i.imgur.com/4SE7WZ8.gif)
